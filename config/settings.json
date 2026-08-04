@@ -1,0 +1,17 @@
+{
+  "base_url": "https://m.twitch.tv",
+  "browser": "chrome",
+  "headless": false,
+  "timeouts": {
+    "explicit": 15,
+    "modal": 5
+  },
+  "mobile_emulation": {
+    "deviceMetrics": {
+      "width": 393,
+      "height": 851,
+      "pixelRatio": 2.75
+    },
+    "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36"
+  }
+}
